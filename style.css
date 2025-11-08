@@ -274,13 +274,17 @@ main h1 {
 
 .feature {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 1rem;
     padding: 1.5rem;
     background: rgba(255, 255, 255, 0.05);
     border-radius: 12px;
     border-left: 4px solid #4caf50;
     transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.feature h3{
+    margin-top: 5px;
 }
 
 .feature:hover {
@@ -565,4 +569,5 @@ footer {
         text-align: left;
         margin: 0;
     }
+
 }
